@@ -1,0 +1,126 @@
+* {
+   margin:0;
+   padding:0;
+   }
+body {
+  text-align: center; /*For IE6 Shenanigans*/
+  background-color: #f9f9f9;
+}
+
+
+.wrapper {
+  left: 50%;
+  margin-left: -483px;
+  position: absolute;
+  width: 966px;
+  height: 100%;
+  text-align: left;
+  background-color: #ffffff;
+  padding: 50px 48px 60px 46px;
+  border-left: 1px solid #e7e7e7;
+  border-right: 1px solid #e7e7e7;
+}
+.horisontal_menu {
+  margin-top: 40px;
+  background: linear-gradient(to top, #5e5e5e, #454444);
+  height: 40px;
+}
+.menu_top li {
+  display:inline-block;
+  margin:0px 40px 0px 0px;
+  padding:11px 24px;
+  text-align: center;
+  font-family: "OpenSansRegular";
+  font-size: 11pt;
+  color: #ffffff;
+}
+.top_menu_element:hover {
+  background: linear-gradient(to top, #4a4a4a, #303030);
+  border-left: 1px solid #838383;
+  border-right: 1px solid #838383;
+  padding:11px 23px;
+}
+
+.content {
+  display: inline-block;
+  margin-top: 40px;
+  width: 966px;
+}
+.sidebar {
+  float: left;
+  width: 240px;
+}
+.info {
+  float: right;
+  width: 678px;
+}
+.s_bar {
+  width: 240px;
+  border: 1px solid #c8c8c8;
+}
+.sidebar_element {
+  list-style-type: none;
+  padding:12px 0px 12px 24px;
+  text-align: left;
+  font-family: "OpenSansRegular";
+  font-size: 10pt;
+  color: #656363;
+  border-bottom: 1px solid #c8c8c8;
+}
+.sidebar_element:last-child {
+  border-bottom: 0;
+}
+.sidebar_element:hover {
+  padding-left: 36px;
+  color: #2c2c2c;
+  background-color: #f9f9f9;
+}
+.photo {
+  height: 400px;
+  position: relative;
+  border: 1px solid #c8c8c8;
+}
+.photo img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+.text_under_img {
+  margin-top: 24px;
+  padding:0px 18pt;
+  font-family: "OpenSansRegular";
+  font-size: 10pt;
+  color: #2c2c2c;
+  text-align: left;
+  line-height: 16pt;
+}
+footer {
+  margin-top: 60px;
+  background-color: #e1e1e1;
+  height: 40px;
+  font-family: "OpenSansRegular";
+  font-size: 10pt;
+  color: #2c2c2c;
+}
+.menu_bottom {
+  float: left;
+}
+.menu_bottom li {
+  display:inline-block;
+  margin:0px 40px 0px 0px;
+  padding:12px 24px;
+  text-align: center;
+}
+.bottom_menu_element:hover {
+  text-decoration:underline;
+}
+.rights {
+  display: inline-block;
+  float: right;
+  padding:12px 24px;
+}
